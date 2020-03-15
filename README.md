@@ -8,7 +8,7 @@ composer require "slownls/twitch_api"
 
 ## User functions
 
-~~~ php
+~~~ PHP
 User::IsLogged() // Whether the user is logged in.
 
 User::IsReturned() // Used to see if the player has logged in with steam
