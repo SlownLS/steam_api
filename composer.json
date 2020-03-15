@@ -1,0 +1,21 @@
+{
+    "name": "slownls/steam_api",
+    "description": "A simple php library for Steam API",
+    "keywords": ["slownls", "steam", "api", "object-oriented"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "SlownLS",
+            "email": "slownls.luca@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "SlownLS\\Steam\\": "src/"
+        }
+    }        
+}
