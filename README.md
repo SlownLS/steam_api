@@ -8,6 +8,7 @@ composer require "slownls/twitch_api"
 
 ## User functions
 
+~~~ php
 User::IsLogged() - Whether the user is logged in.
 
 User::IsReturned() - Used to see if the player has logged in with steam
@@ -25,3 +26,4 @@ User::GetInfos(string $urlOrSteamid) - Used to retrieve the information of a ste
 User::GetFriends(string $steamid) - Used to retrieve a user's friends
 
 User::GetGames(string $steamid) - Used to retrieve a user's games
+~~~
