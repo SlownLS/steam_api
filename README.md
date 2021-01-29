@@ -4,7 +4,7 @@ A simple php library for Steam API
 ## Installation 
 To install this library use composer
 
-composer require "slownls/twitch_api"
+composer require "slownls/steam_api"
 
 ## User functions
 
